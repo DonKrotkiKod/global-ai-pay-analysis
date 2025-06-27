@@ -192,3 +192,27 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# Power BI files
+*.pbix
+*.pbit
+
+# CSV data files
+*.csv
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# MacOS + Windows garbage
+.DS_Store
+Thumbs.db
+
+# VSCode config
+.vscode/
+
+# Virtual environments
+venv/
+.venv/
+
+# Logs
+*.log
